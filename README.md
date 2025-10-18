@@ -6,10 +6,11 @@
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Installation & Compilation](#installation--compilation)
-3. [Gameplay Instructions](#gameplay-instructions)
-4. [License](#license)
-5. [Contact](#contact)
+2. [Code Note](#code--note)
+3. [Installation & Compilation](#installation--compilation)
+4. [Gameplay Instructions](#gameplay-instructions)
+5. [License](#license)
+6. [Contact](#contact)
 
 ### Overview
 Welcome to the **68k Assembly Duck Hunt** repository! 🦆🎮
@@ -30,6 +31,9 @@ Whether you're looking to expand your knowledge of assembly language or explore 
 
 <img src="assets/GameLogo.webp" alt="Game Logo" width="50" height="50">
 
+### Code Note
+There are **parts of the code** where **readability was totally sacrificed in favor of performance**. This is especially noticeable in the section that handles the logic for the duck bouncing randomly off the walls — the logic there becomes impossible to follow. The code had to be optimized instruction by instruction to make the program run properly; otherwise, it would become too heavy and end up freezing.
+
 ### Installation & Compilation ⚙️
 
 To install and run the game:
@@ -49,6 +53,8 @@ showing the steps! ▶️
 ### Gameplay Instructions 🕹️
 
 It's very simple! Just press the **spacebar** to start playing, then aim with the **mouse** and **click** to shoot.
+
+<img src="assets/GameplayPreview.gif" alt="Gameplay Preview" width="448" height="336">
 
 Here's a 
 <a href="https://youtu.be/SFCFCO39x4E" target="_blank">**video**</a> 
